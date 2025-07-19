@@ -18,7 +18,7 @@ export const cart = {
         return i;
       });
     },
-    UPDATE_QUATITY(state, { id, quantity }) {
+    UPDATE_QUANTITY(state, { id, quantity }) {
       state.items = state.items.map(i => {
         if (i.id === id) {
           i.quantity = quantity;
