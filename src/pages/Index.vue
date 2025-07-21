@@ -6,7 +6,7 @@
       <div class="row">
         <q-btn rounded color="primary" label="Criar Venda"  class="q-ma-sm " to="/products"/>
         
-        <q-btn rounded label="Listar Vendas" class="q-ma-sm" to=""/>
+        <q-btn rounded label="Listar Vendas" class="q-ma-sm" to="/history"/>
       </div>
     </div>
   </q-page>

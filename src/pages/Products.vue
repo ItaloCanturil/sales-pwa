@@ -4,8 +4,10 @@
       <q-input
         v-model="searchQuery"
         outlined
-        placeholder="Search products"
+        placeholder="Procure os produtos"
         rounded
+        dense
+        :dark="false"
         @input="onSearch"
       >
         <template v-slot:append>

@@ -3,7 +3,7 @@
         <q-list class="list">
             <q-item v-for="item in items" :key="item.id">
                 <q-item-section avatar>
-                    <!-- <q-img :src="item.image" /> -->
+                    <q-img :src="item.image" />
                 </q-item-section>
                 <q-item-section>
                     <q-item-label>{{item.name}}</q-item-label>
@@ -28,8 +28,11 @@ export default {
     },
     methods: {
         finishThePurchase() {
-            this.$store.commit('cart/CLEAR_CART')
             this.$router.push('/success')
+            
+            console.log('finish', this.items, this.total)
+            this.$store.dispatch('sales/createSale', { items: this.items, total: this.total })
+            this.$store.commit('cart/CLEAR_CART')
         }
     }
 }

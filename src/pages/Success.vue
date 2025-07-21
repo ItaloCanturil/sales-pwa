@@ -10,7 +10,7 @@
 
             <div class="success__actions">
                 <q-btn rounded no-caps color="primary" label="Realizar outra compra" to="/products"/>
-                <q-btn rounded no-caps color="primary" label="Voltar para o inicio"/>
+                <q-btn rounded no-caps color="primary" label="Voltar para o inicio" to="/"/>
             </div>
         </div>
     </q-page>
