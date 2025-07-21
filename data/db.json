@@ -47,6 +47,86 @@
       "image": "https://images.unsplash.com/photo-1575654432843-0dd3f01c77d8?auto=format&fit=crop&w=150&q=80",
       "description": "Anéis de cebola empanados e crocantes.",
       "category": "Acompanhamentos"
+    },
+    {
+      "id": 7,
+      "name": "Cheeseburger Duplo",
+      "price": 32.90,
+      "image": "https://images.unsplash.com/photo-1613141412947-e3cfa19bdde3?auto=format&fit=crop&w=150&q=80",
+      "description": "Dois hambúrgueres, queijo duplo, picles e molho especial.",
+      "category": "Hambúrgueres"
+    },
+    {
+      "id": 8,
+      "name": "Salada Caesar",
+      "price": 18.00,
+      "image": "https://images.unsplash.com/photo-1604909053115-47e5300b902c?auto=format&fit=crop&w=150&q=80",
+      "description": "Alface, croutons, frango grelhado e molho Caesar.",
+      "category": "Saladas"
+    },
+    {
+      "id": 9,
+      "name": "Água Mineral",
+      "price": 4.00,
+      "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=150&q=80",
+      "description": "Garrafa de água mineral 500ml.",
+      "category": "Bebidas"
+    },
+    {
+      "id": 10,
+      "name": "Hambúrguer de Frango",
+      "price": 27.50,
+      "image": "https://images.unsplash.com/photo-1606756791841-284b4f1d9143?auto=format&fit=crop&w=150&q=80",
+      "description": "Pão, hambúrguer de frango empanado, alface e maionese.",
+      "category": "Hambúrgueres"
+    },
+    {
+      "id": 11,
+      "name": "Nachos com Queijo",
+      "price": 16.00,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=150&q=80",
+      "description": "Porção de nachos crocantes com queijo derretido.",
+      "category": "Acompanhamentos"
+    },
+    {
+      "id": 12,
+      "name": "Suco Natural de Laranja",
+      "price": 9.00,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=150&q=80",
+      "description": "Suco 100% natural feito na hora.",
+      "category": "Bebidas"
+    },
+    {
+      "id": 13,
+      "name": "Brownie com Sorvete",
+      "price": 19.50,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=150&q=80",
+      "description": "Brownie de chocolate com bola de sorvete de baunilha.",
+      "category": "Sobremesas"
+    },
+    {
+      "id": 14,
+      "name": "Cerveja Artesanal",
+      "price": 14.90,
+      "image": "https://images.unsplash.com/photo-1598514982901-c9bdb0ce36d4?auto=format&fit=crop&w=150&q=80",
+      "description": "Garrafa de 355ml, puro malte.",
+      "category": "Bebidas"
+    },
+    {
+      "id": 15,
+      "name": "Sorvete de Morango",
+      "price": 10.00,
+      "image": "https://images.unsplash.com/photo-1620290380106-bc1782f95eeb?auto=format&fit=crop&w=150&q=80",
+      "description": "Taça com duas bolas de sorvete de morango.",
+      "category": "Sobremesas"
+    },
+    {
+      "id": 16,
+      "name": "Wrap de Frango",
+      "price": 22.00,
+      "image": "https://images.unsplash.com/photo-1585238342028-96629c19b1a5?auto=format&fit=crop&w=150&q=80",
+      "description": "Tortilla recheada com frango, alface, tomate e molho.",
+      "category": "Sanduíches"
     }
   ]
 }
