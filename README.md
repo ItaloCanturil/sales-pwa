@@ -15,3 +15,4 @@ A escolha do Quasar foi feita por afinidade e experiência com o framework, tamb
 
 ### Dificuldades
 - Pensei em persistir os dados da venda inicialmente com a biblioteca [vuex-persistedstate](https://www.npmjs.com/package/vuex-persistedstate) mas como na página do npm está informa que está _deprecated_, decidi criar um plugin utilizando localStorage e subscribe do Vuex.
+- Queria utilizar o Vitest mas a compatibilidade com Vue 2 e Quasar é maior com o Jest.
