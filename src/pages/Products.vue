@@ -5,6 +5,7 @@
         v-model="searchQuery"
         outlined
         placeholder="Search products"
+        rounded
         @input="onSearch"
       >
         <template v-slot:append>

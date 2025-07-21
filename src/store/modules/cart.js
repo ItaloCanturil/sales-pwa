@@ -30,6 +30,16 @@ export const cart = {
       state.items = [];
     }
   },
+  actions : {
+    addItem({ commit }, item) {
+      commit('ADD_ITEM', item);
+      console.log(item)
+
+    },
+    removeItem({ commit }, itemId) {
+      commit('REMOVE_ITEM', itemId);
+    }
+  },
   getters: {
     items: state => state.items,
     total: state => {

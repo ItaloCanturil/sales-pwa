@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Hambúrguer Clássico",
+      "price": 25.99,
+      "image": "https://via.placeholder.com/150/FFC107/000000?Text=Hamburguer",
+      "description": "Pão, carne, queijo, alface e tomate.",
+      "category": "Hambúrgueres"
+    },
+    {
+      "id": 2,
+      "name": "Batata Frita",
+      "price": 12.50,
+      "image": "https://via.placeholder.com/150/FF9800/000000?Text=Batata+Frita",
+      "description": "Porção de batatas fritas crocantes.",
+      "category": "Acompanhamentos"
+    },
+    {
+      "id": 3,
+      "name": "Refrigerante",
+      "price": 8.00,
+      "image": "https://via.placeholder.com/150/03A9F4/000000?Text=Refrigerante",
+      "description": "Lata de 350ml.",
+      "category": "Bebidas"
+    },
+    {
+      "id": 4,
+      "name": "Hambúrguer Vegano",
+      "price": 30.00,
+      "image": "https://via.placeholder.com/150/4CAF50/000000?Text=Vegano",
+      "description": "Pão, hambúrguer de grão de bico, alface, tomate e maionese vegana.",
+      "category": "Hambúrgueres"
+    }
+  ]
+}

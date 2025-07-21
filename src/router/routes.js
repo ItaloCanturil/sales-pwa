@@ -7,11 +7,11 @@ const routes = [
       { path: '', component: () => import('pages/Index.vue') },
       { path: 'products', component: () => import('pages/Products.vue') },
       { path: 'history', component: () => import('pages/History.vue') },
+      { path: 'finish', component: () => import('pages/Finish.vue') },,
+      { path: 'success', component: () => import('pages/Success.vue') },
     ]
   },
 
-  // Always leave this as last one,
-  // but you can also remove it
   {
     path: '*',
     component: () => import('pages/Error404.vue')
