@@ -1,7 +1,7 @@
 <template>
     <q-page class="column justify-center items-center">
         <div class="success column items-center">
-            <h2>Compra finalizada com sucesso!</h2>
+            <h2 class="text-center">Compra finalizada com sucesso!</h2>
             <q-img 
               src="../assets/undraw_confirmation_31jc.svg"
               class="success__image"

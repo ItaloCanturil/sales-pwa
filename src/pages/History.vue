@@ -1,6 +1,6 @@
 <template>
     <q-page class="column items-center q-pa-md">
-        <h2>Historico de vendas</h2>
+        <h2 class="text-center">Historico de vendas</h2>
         <div class="history__wrap">
             <sales-list :sales="this.$store.state.sales.history"/>
         </div>

@@ -1,7 +1,13 @@
 <template>
   <q-page class="column items-center">
     <div class="column justify-center items-center">
-      <h2>Gerencie suas vendas</h2>
+      <h2 class="text-center">Gerencie suas vendas</h2>
+
+      <q-img
+        src="../assets/boas-vindas.jpg"
+        class="index__image"
+        :ratio="1"
+      />
 
       <div class="row">
         <q-btn rounded color="primary" label="Criar Venda"  class="q-ma-sm " to="/products"/>
@@ -17,3 +23,9 @@ export default {
   name: 'PageIndex'
 }
 </script>
+
+<style scoped>
+.index__image >>> .q-img__image {
+  border-radius: 10px;
+}
+</style>
