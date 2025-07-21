@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Refrigerante",
       "price": 8.00,
-      "image": "https://images.unsplash.com/photo-1604908177340-0f549380c86d?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1527960471264-932f39eb5846?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Lata de 350ml.",
       "category": "Bebidas"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "name": "Hambúrguer Vegano",
       "price": 30.00,
-      "image": "https://images.unsplash.com/photo-1625947111623-aee4b0cbb9a3?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360?q=80&w=1290&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Pão, hambúrguer de grão de bico, alface, tomate e maionese vegana.",
       "category": "Hambúrgueres"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "name": "Milkshake de Chocolate",
       "price": 15.00,
-      "image": "https://images.unsplash.com/photo-1590080878062-18b857fd5c4c?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Milkshake cremoso de chocolate com chantilly.",
       "category": "Bebidas"
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "name": "Onion Rings",
       "price": 14.00,
-      "image": "https://images.unsplash.com/photo-1575654432843-0dd3f01c77d8?auto=format&fit=crop&w=150&q=80",
+      "image": "https://plus.unsplash.com/premium_photo-1683121324272-90f4b4084ac9?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Anéis de cebola empanados e crocantes.",
       "category": "Acompanhamentos"
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "name": "Cheeseburger Duplo",
       "price": 32.90,
-      "image": "https://images.unsplash.com/photo-1613141412947-e3cfa19bdde3?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1619901282828-7cbde1c89884?q=80&w=820&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Dois hambúrgueres, queijo duplo, picles e molho especial.",
       "category": "Hambúrgueres"
     },
