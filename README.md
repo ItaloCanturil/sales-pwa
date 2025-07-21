@@ -1,31 +1,17 @@
 # Canturil's Sales (cplug-sales)
 
-A Quasar Project
+Projeto de um sistema de venda simples, praticando Vue.js e Quasar Framework, gerenciamento de estado e PWA.
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+## 💻 Tech Stack
+- Vue 2 (Options API)
+- Vuex
+- Quasar Framework v1
+- Vue router
+- Vite
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+-----------
+## Desenvolvimento
+A escolha do Quasar foi feita por afinidade e experiência com o framework, também pela facilidade e agilidade para desenvolver o PWA.
 
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
+### Dificuldades
+- Pensei em persistir os dados da venda inicialmente com a biblioteca [vuex-persistedstate](https://www.npmjs.com/package/vuex-persistedstate) mas como na página do npm está informa que está _deprecated_, decidi criar um plugin utilizando localStorage e subscribe do Vuex.
