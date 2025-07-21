@@ -7,7 +7,6 @@ Projeto de um sistema de venda simples, praticando Vue.js e Quasar Framework, ge
 - Vuex
 - Quasar Framework v1
 - Vue router
-- Vite
 
 -----------
 ## Desenvolvimento
