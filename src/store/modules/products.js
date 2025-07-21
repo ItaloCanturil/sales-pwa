@@ -1,3 +1,5 @@
+import axios from "axios";
+
 export const products = {
   namespaced: true,
   state: {
@@ -46,7 +48,13 @@ export const products = {
     },
     SET_SEARCH_QUERY(state, query) {
       state.searchQuery = query;
-    }
+    },
+    SET_LOADING(state, loading) {
+      state.loading = loading;
+    },
+    SET_ERROR(state, error) {
+      state.error = error;
+    },
   },
   actions: {
     setProducts({ commit }, products) {
@@ -65,7 +73,7 @@ export const products = {
       commit("SET_LOADING", true);
       commit("SET_ERROR", null);
       try {
-        const response = await axios.get("http://localhost:3000/products");
+        const response = await axios.get("/api/products");
         commit("SET_PRODUCTS", response.data);
       } catch (error) {
         console.error("Erro ao buscar produtos:", error);

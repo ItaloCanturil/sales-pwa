@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Hambúrguer Clássico",
+      "price": 25.99,
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=150&q=80",
+      "description": "Pão, carne, queijo, alface e tomate.",
+      "category": "Hambúrgueres"
+    },
+    {
+      "id": 2,
+      "name": "Batata Frita",
+      "price": 12.50,
+      "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=150&q=80",
+      "description": "Porção de batatas fritas crocantes.",
+      "category": "Acompanhamentos"
+    },
+    {
+      "id": 3,
+      "name": "Refrigerante",
+      "price": 8.00,
+      "image": "https://images.unsplash.com/photo-1604908177340-0f549380c86d?auto=format&fit=crop&w=150&q=80",
+      "description": "Lata de 350ml.",
+      "category": "Bebidas"
+    },
+    {
+      "id": 4,
+      "name": "Hambúrguer Vegano",
+      "price": 30.00,
+      "image": "https://images.unsplash.com/photo-1625947111623-aee4b0cbb9a3?auto=format&fit=crop&w=150&q=80",
+      "description": "Pão, hambúrguer de grão de bico, alface, tomate e maionese vegana.",
+      "category": "Hambúrgueres"
+    },
+    {
+      "id": 5,
+      "name": "Milkshake de Chocolate",
+      "price": 15.00,
+      "image": "https://images.unsplash.com/photo-1590080878062-18b857fd5c4c?auto=format&fit=crop&w=150&q=80",
+      "description": "Milkshake cremoso de chocolate com chantilly.",
+      "category": "Bebidas"
+    },
+    {
+      "id": 6,
+      "name": "Onion Rings",
+      "price": 14.00,
+      "image": "https://images.unsplash.com/photo-1575654432843-0dd3f01c77d8?auto=format&fit=crop&w=150&q=80",
+      "description": "Anéis de cebola empanados e crocantes.",
+      "category": "Acompanhamentos"
+    }
+  ]
+}

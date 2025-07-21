@@ -35,17 +35,20 @@ export default {
     }
   },
   computed: {
-    ...mapGetters('products', ['filteredProducts'])
+    ...mapGetters('products', ['filteredProducts', 'loading', 'error']),
   },
   methods: {
-    ...mapActions('products', ['setSearchQuery']),
+    ...mapActions('products', ['setSearchQuery', 'fetchProducts']),
     onSearch() {
       this.setSearchQuery(this.searchQuery)
     }
+  },
+  async mounted() {
+    await this.fetchProducts();
   }
 }
 </script>
 
-<style lang="sass" scoped>
+<style scoped>
 
 </style>
