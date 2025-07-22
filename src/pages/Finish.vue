@@ -22,7 +22,7 @@
         <q-separator spaced />
 
         <div class="finish__info">
-            <div>Total: R$ {{total}}</div>
+            <div>Total: {{total | currency}}</div>
         </div>
 
         <div class="finish__actions">

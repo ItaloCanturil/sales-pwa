@@ -1,17 +1,17 @@
 <template>
-    <div class="sales-list">
+    <div class="sales-list ">
         <q-list v-if="sales.length > 0">
-            <q-item v-for="sale in sales" :key="sale.id" class="q-mb-sm">
+            <q-item v-for="sale in sales" :key="sale.id" class="q-mb-sm text-black">
                 <q-item-section>
                     <q-item-label class="text-weight-bold">Venda #{{ sale.id }}</q-item-label>
-                    <q-item-label caption>
+                    <q-item-label class="text-black" caption>
                         Data: {{ new Date(sale.date).toLocaleDateString() }}
                     </q-item-label>
                     <q-list dense>
-                        <q-item v-for="item in sale.items" :key="item.id">
+                        <q-item class="text-black" v-for="item in sale.items" :key="item.id">
                             <q-item-section>
                                 <q-item-label>{{ item.name }}</q-item-label>
-                                <q-item-label caption>
+                                <q-item-label class="text-black" caption>
                                     Quantidade: {{ item.quantity }} | Preço: {{ item.price | currency }}
                                 </q-item-label>
                             </q-item-section>
@@ -22,6 +22,10 @@
                     </q-item-label>
                 </q-item-section>
             </q-item>
+            <div class="row justify-center">
+                <q-btn rounded no-caps color="primary" label="Criar Venda"  class="q-ma-sm " to="/products"/>
+            <q-btn rounded no-caps color="primary" label="Voltar para o inicio" class="q-ma-sm " to="/"/>
+            </div>
         </q-list>
         <div v-else class="text-center column items-center q-pa-md">
             <q-img src="../assets/no-venda.png" class="sales__img" :ratio="1"/>

@@ -23,7 +23,7 @@
               </q-item-section>
               <q-item-section side>
                 <div class="row items-center">
-                    <div>${{ (item.price * item.quantity).toFixed(2) | currency }}</div>
+                    <div>{{ (item.price * item.quantity).toFixed(2) | currency }}</div>
     
                     <q-btn
                       round
