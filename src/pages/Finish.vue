@@ -15,7 +15,7 @@
                     <q-item-label>{{item.name}}</q-item-label>
                 </q-item-section>
                 <q-item-section>
-                    <q-item-label>R$ {{item.price}}</q-item-label>
+                    <q-item-label>{{item.price | currency}}</q-item-label>
                 </q-item-section>
             </q-item>
         </q-list>
@@ -33,17 +33,19 @@
 </template>
 
 <script>
+import { pushNotify } from 'src/utils/notify'
 import { mapGetters } from 'vuex'
 export default {
     computed: {
         ...mapGetters('cart',['items', 'total'])
     },
     methods: {
-        finishThePurchase() {
+        async finishThePurchase() {
             this.$router.push('/success')
             
             console.log('finish', this.items, this.total)
             this.$store.dispatch('sales/createSale', { items: this.items, total: this.total })
+            await pushNotify('Nova venda', `Venda no valor de R$ ${this.total}, foi registrada`);
             this.$store.commit('cart/CLEAR_CART')
         }
     }

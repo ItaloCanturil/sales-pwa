@@ -42,12 +42,6 @@ export default {
     ShoppingCartBubble,
     ThemeToggle
   },
-  data() {
-    return {
-      leftDrawerOpen: false,
-      essentialLinks: linksData
-    }
-  },
   computed: {
     showCart() {
       return !['/finish', '/success'].includes(this.$route.path)

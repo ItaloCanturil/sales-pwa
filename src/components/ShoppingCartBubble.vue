@@ -23,7 +23,7 @@
               </q-item-section>
               <q-item-section side>
                 <div class="row items-center">
-                    <div>${{ (item.price * item.quantity).toFixed(2) }}</div>
+                    <div>${{ (item.price * item.quantity).toFixed(2) | currency }}</div>
     
                     <q-btn
                       round
@@ -39,7 +39,7 @@
             <q-separator />
             <q-item>
               <q-item-section>Total:</q-item-section>
-              <q-item-section side>${{ total.toFixed(2) }}</q-item-section>
+              <q-item-section side>{{ total | currency }}</q-item-section>
             </q-item>
             <q-item class="row justify-center">
               <q-btn label="Finalizar compra" to="/finish" rounded size="md" />
@@ -52,7 +52,7 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters, mapActions } from "vuex";
 
 export default {
   data() {
@@ -71,12 +71,21 @@ export default {
     },
   },
   methods: {
+    ...mapActions("cart", ["removeItem"]),
     animateCart() {
       this.isAnimating = true;
       setTimeout(() => {
         this.isAnimating = false;
       }, 500);
     },
+    removeCart(itemId) {
+        this.removeItem(itemId)
+        this.$notify({
+          color: 'red',
+          textColor: 'white',
+          message: 'Item removido do carrinho',
+        })
+    }
   },
 };
 </script>

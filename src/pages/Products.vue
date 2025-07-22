@@ -1,6 +1,15 @@
 <template>
   <q-page class="row q-pa-md">
-    <div class="col-12 q-mb-md">
+    <div class="col-12 q-mb-md row items-center">
+      <q-btn
+        icon="arrow_back"
+        flat
+        round
+        dense
+        color="primary"
+        class="q-mr-sm"
+        to="/"
+      />
       <q-input
         v-model="searchQuery"
         outlined
@@ -9,6 +18,7 @@
         dense
         :dark="false"
         @input="onSearch"
+        class="col"
       >
         <template v-slot:append>
           <q-icon name="search" />

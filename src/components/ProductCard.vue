@@ -9,7 +9,7 @@
     <q-card-section class="text-left q-pa-md">
       <div class="text-h6 ellipsis">{{ product.name }}</div>
       <div class="text-subtitle2 text-weight-light q-mt-sm">
-        R${{ product.price }}
+        {{ product.price | currency }}
       </div>
     </q-card-section>
 

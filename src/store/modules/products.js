@@ -92,11 +92,11 @@ export const products = {
     isLoading: (state) => state.loading,
     hasError: (state) => state.error,
     filteredProducts: (state) => {
-      const query = state.searchQuery.toLowerCase();
+      const query = state.searchQuery.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
       if (!query) return state.products;
       
       return state.products.filter(product => 
-        product.name.toLowerCase().includes(query)
+        product.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').includes(query)
       );
     }
   },

@@ -60,7 +60,7 @@
       "id": 8,
       "name": "Salada Caesar",
       "price": 18.00,
-      "image": "https://images.unsplash.com/photo-1604909053115-47e5300b902c?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Alface, croutons, frango grelhado e molho Caesar.",
       "category": "Saladas"
     },
@@ -68,7 +68,7 @@
       "id": 9,
       "name": "Água Mineral",
       "price": 4.00,
-      "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1612134678926-7592c521aa52?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Garrafa de água mineral 500ml.",
       "category": "Bebidas"
     },
@@ -76,7 +76,7 @@
       "id": 10,
       "name": "Hambúrguer de Frango",
       "price": 27.50,
-      "image": "https://images.unsplash.com/photo-1606756791841-284b4f1d9143?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Pão, hambúrguer de frango empanado, alface e maionese.",
       "category": "Hambúrgueres"
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "name": "Nachos com Queijo",
       "price": 16.00,
-      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1669624272709-c5b91f66b1b7?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Porção de nachos crocantes com queijo derretido.",
       "category": "Acompanhamentos"
     },
@@ -92,7 +92,7 @@
       "id": 12,
       "name": "Suco Natural de Laranja",
       "price": 9.00,
-      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Suco 100% natural feito na hora.",
       "category": "Bebidas"
     },
@@ -100,7 +100,7 @@
       "id": 13,
       "name": "Brownie com Sorvete",
       "price": 19.50,
-      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Brownie de chocolate com bola de sorvete de baunilha.",
       "category": "Sobremesas"
     },
@@ -108,7 +108,7 @@
       "id": 14,
       "name": "Cerveja Artesanal",
       "price": 14.90,
-      "image": "https://images.unsplash.com/photo-1598514982901-c9bdb0ce36d4?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1615332579037-3c44b3660b53?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Garrafa de 355ml, puro malte.",
       "category": "Bebidas"
     },
@@ -116,7 +116,7 @@
       "id": 15,
       "name": "Sorvete de Morango",
       "price": 10.00,
-      "image": "https://images.unsplash.com/photo-1620290380106-bc1782f95eeb?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1633933358116-a27b902fad35?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Taça com duas bolas de sorvete de morango.",
       "category": "Sobremesas"
     },
@@ -124,7 +124,7 @@
       "id": 16,
       "name": "Wrap de Frango",
       "price": 22.00,
-      "image": "https://images.unsplash.com/photo-1585238342028-96629c19b1a5?auto=format&fit=crop&w=150&q=80",
+      "image": "https://images.unsplash.com/photo-1666819615040-eff5e52c778a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Tortilla recheada com frango, alface, tomate e molho.",
       "category": "Sanduíches"
     }

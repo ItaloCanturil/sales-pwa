@@ -12,7 +12,7 @@
                             <q-item-section>
                                 <q-item-label>{{ item.name }}</q-item-label>
                                 <q-item-label caption>
-                                    Quantidade: {{ item.quantity }} | Preço: R$ {{ item.price.toFixed(2) }}
+                                    Quantidade: {{ item.quantity }} | Preço: {{ item.price | currency }}
                                 </q-item-label>
                             </q-item-section>
                         </q-item>
@@ -23,8 +23,13 @@
                 </q-item-section>
             </q-item>
         </q-list>
-        <div v-else class="text-center q-pa-md">
-            Nenhuma venda registrada.
+        <div v-else class="text-center column items-center q-pa-md">
+            <q-img src="../assets/no-venda.png" class="sales__img" :ratio="1"/>
+
+            <div class="row">
+                <q-btn rounded no-caps color="primary" label="Criar Venda"  class="q-ma-sm " to="/products"/>
+            <q-btn rounded no-caps color="primary" label="Voltar para o inicio" class="q-ma-sm " to="/"/>
+            </div>
         </div>
     </div>
 </template>
@@ -46,5 +51,13 @@ export default {
 <style scoped>
 .sales-list {
     width: 100%;
+}
+
+.sales__img {
+    max-width: 400px;
+}
+
+.sales__img >>> .q-img__image {
+    border-radius: 10px;
 }
 </style>

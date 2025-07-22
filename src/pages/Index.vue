@@ -25,6 +25,10 @@ export default {
 </script>
 
 <style scoped>
+.index__image {
+  max-width: 400px;
+}
+
 .index__image >>> .q-img__image {
   border-radius: 10px;
 }
